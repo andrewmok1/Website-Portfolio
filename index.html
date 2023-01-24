@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew Mok</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/6ceb3a7997.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar">
+
+        <img src="Photos/signature_white.svg" alt="Signature" class="signature">
+
+        <a class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        
+        <div class="navbar_links">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#About_Me_Header">About Me</a></li>
+                <li><a href="#Technical_Skills_Header">Technical Skills</a></li>
+                <li><a href="#Project_Header">Projects</a></li>
+                <li><a href="#Contact_Me_Header">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <introduction class="introduction_page">
+        <div class="name">Andrew Mok</div>
+
+        <div id="subtext">I am a Front-End Developer</div>
+        
+        <div class="CTA">
+            <ul>
+                <a href="#Contact_Me_Header">
+                <button class="hire_me">Hire Me</button>
+                </a>
+                <a href="./Mok_Andrew_Resume.pdf" target="_blank" rel="noopener noreferrer">
+                <button class="resume">Résumé</button>
+                </a>
+            </ul>
+        </div>
+
+        <div class="social_media_links">
+            <ul>
+                <a href="https://www.linkedin.com/in/andrew-mok-58bab9154/" target="_blank" rel="noopener noreferrer">
+                    <li><i class="fa-brands fa-linkedin"></i></li>
+                </a>
+                <a href="https://github.com/andrewmok1" target="_blank" rel="noopener noreferrer">
+                    <li><i class="fa-brands fa-github"></i></li>
+                </a>
+            </ul>
+        </div>
+
+        <div class="arrow-container">
+            <div class="arr down"><div></div></div>
+        </div>
+    </introduction>
+
+    <aboutMe class="aboutMe_page" section id="About_Me_Header">
+        <div class="header_picture_container">
+            <div class="header1">About Me</div>
+            <img src="Photos/me.jpg" alt="me" class="me">
+        </div>
+        
+        <div class="question"><em>Who Am I?</em>
+            <div class="paragraph">
+                <p>My name is Andrew and I am a Front-End Developer with a passion of creating</p>
+                <p>responsive websites and web applications. Programming has been an interest in</p>
+                <p>my life and I love to combine my skillset to code a website's appearance.</p>
+                <p>In my freetime, I love to play and coach tennis and spend time with family.</p>
+            </div>
+
+            <div class="CTA_email">
+                Email: a.j.mok@outlook.com
+            </div>
+
+            <div class="CTA_cellphone">
+                Cell-Phone: 703-338-7633
+            </div>
+
+            <div class="CTA_myWork">
+                <a href="#Project_Header">
+                    <button class ="myWork">My Work</button>
+                </a>
+            </div>
+        </div>
+    </aboutMe>
+
+    <technicalSkills class="technicalSkills_page" section id="Technical_Skills_Header">
+        <div class="technicalSkills_container">
+            Technical Skills
+            <div class="languages">Programming Languages
+                <ul>
+                    <li><i class="fa-brands fa-html5"></i></li>
+                    <li><i class="fa-brands fa-css3-alt"></i></li>
+                    <li><i class="fa-brands fa-js"></i></li>
+                </ul>
+            </div>
+            <div class="frameworks">Frameworks (To be Learnt Soon...)
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="tools">Other Tools
+                <ul>
+                    <li><i class="fa-brands fa-linux"></i></li>
+                    <li><img src="Photos/vscode.svg" alt="vscode" class="vscode"></li>
+                    <li><i class="fa-brands fa-git-alt"></i></li>
+                </ul>
+            </div>
+        </div>
+    </technicalSkills>
+
+    <project class="project_page" section id="Project_Header">
+        <div class="grid_container">
+            <div class="header2">Projects</div>
+            <img src="Photos/rps_game.png" alt="rps_game" class="rps_game">
+            <div class="project_description">
+                <h1>Rock Paper Scissors</h1>
+                <p>A game of "Rock, Paper, Scissors" against a computer.</p>
+                <p>First to five points win and you have the ability to</p>
+                <p>restart the game.</p>
+                <a href="https://andrewmok1.github.io/Rock-Paper-Scissor/" target="_blank" rel="noopener noreferrer">
+                    <button class="live">Live</button>
+                </a>
+                <a href="https://github.com/andrewmok1/Rock-Paper-Scissor" target="_blank" rel="noopener noreferrer">
+                    <button class="source">Source Code</button>
+                </a>
+            </div>
+
+            <img src="Photos/calc_game.png" alt="calc_game" class="calc_game">
+            <div class="project_description">
+                <h1>Calculator</h1>
+                <p>A simple calculator that takes one equation with one</p>
+                <p>operator at a time. However, you can use the solution from</p>
+                <p>the previous equation for another new equation.</p>
+                <a href="https://andrewmok1.github.io/Simple_Calculator/" target="_blank" rel="noopener noreferrer">
+                    <button class="live">Live</button>
+                </a>
+                <a href="https://github.com/andrewmok1/Simple_Calculator" target="_blank" rel="noopener noreferrer">
+                    <button class="source">Source Code</button>
+                </a>
+            </div>
+            
+            <img src="Photos/draw_game.png" alt="draw_game" class="draw_game">
+            <div class="project_description">
+                <h1>Etch-A-Sketch</h1>
+                <p>A Etch-A-Sketch board that lets you set the size of</p>
+                <p>the board. Choose from 2 different color options: Black</p>
+                <p>and Rainbow. You can also erase and reset board size.</p>
+                <a href="https://andrewmok1.github.io/Etch-A-Sketch/" target="_blank" rel="noopener noreferrer">
+                    <button class="live">Live</button>
+                </a>
+                <a href="https://github.com/andrewmok1/Etch-A-Sketch" target="_blank" rel="noopener noreferrer">
+                    <button class="source">Source Code</button>
+                </a>
+            </div>
+
+            <div class="more_projects">
+                <a href="https://github.com/andrewmok1" target="_blank" rel="noopener noreferrer">
+                    <button class="more_projects_button">More Projects</button>
+                </a>
+            </div>
+        </div>
+    </project>
+
+    <contact class="contact_page" section id="Contact_Me_Header">
+        <form action="https://formspree.io/f/mlekdkaq" method="POST">
+            <div class="header3">Contact Me</div>
+            <input name="Name" type="text" class="contact_form_text" placeholder="Full Name" required>
+            <input name="Email" type="email" class="contact_form_text" placeholder="Email" required>
+            <input name="Mobile #" type="text" class="contact_form_text" placeholder="Mobile #" required>
+            <textarea name="Message" class="contact_form_text" placeholder="Type Your Message Here..."></textarea>
+            <input type="submit" class="contact-form-btn" value="Send">
+        </form>
+    </contact>
+
+    <script src="script.js"></script>
+</body>
+</html>
