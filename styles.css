@@ -22,6 +22,7 @@ html {
     transition: 0.5s;
     position: sticky;
     animation: movedown 1s linear 1;
+    background-color: rgba(24, 24, 24);
 }
 
 .signature {
@@ -546,6 +547,7 @@ html {
 
 .technicalSkills_container {
     font-size: 64px;
+    margin-top: 40px;
 }
 
 .languages {
@@ -838,6 +840,7 @@ html {
 
 .header2 {
     font-size: 64px;
+    margin-top: 150px;
     margin-bottom: 30px;
     grid-area: header2;
 }
